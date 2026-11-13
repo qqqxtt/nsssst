@@ -1,0 +1,28 @@
+BasedOnStyle: LLVM
+
+# 缩进
+IndentWidth: 4
+ContinuationIndentWidth: 4
+UseTab: Never
+AlignAfterOperator: Align
+AlignAfterOpenBracket: DontAlign
+
+# 行宽
+ColumnLimit: 100
+
+# 大括号
+BreakBeforeBraces: Attach
+
+# 构造函数
+BreakConstructorInitializers: BeforeColon
+PackConstructorInitializers: Never
+
+# 指针与引用
+PointerAlignment: Left
+ReferenceAlignment: Left
+
+# 命名空间
+NamespaceIndentation: None
+
+# include 排序
+SortIncludes: CaseSensitive
